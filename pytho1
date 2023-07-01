@@ -1,0 +1,11 @@
+str=input()
+str.lower()
+str1=""
+vow=['a','e','i','o','u']
+for i in str:
+    if i not in vow:
+        str1+=i
+print(str1)
+
+output:
+sry
