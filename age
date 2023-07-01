@@ -1,0 +1,11 @@
+age=int(input())
+if age>=18 and age<65:
+    print("Adult")
+elif age>=65:
+    print("Senior")
+else:
+    print("Minor")
+
+OUTPUT:
+25
+Adult
